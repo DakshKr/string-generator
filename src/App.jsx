@@ -42,7 +42,7 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col bg-[#2a2a2a] h-screen items-center justify-center text-2xl">
+    <div className="flex flex-col bg-[#2a2a2a] h-screen w-screen items-center justify-center text-2xl">
       <form className="bg-[#1a1a1a] p-7 w-2xl rounded-lg shadow-md text-white flex flex-col">
         <OutputAndCopy string={string} setString={setString} />
 
@@ -55,7 +55,7 @@ const App = () => {
 
         <br />
         {/* <label htmlFor="range">{len}</label> */}
-
+        
         <RangeSlider
           id="range"
           name="range"
